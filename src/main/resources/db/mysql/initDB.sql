@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS petclinic;
-GRANT ALL PRIVILEGES ON petclinic.* TO root@* IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON petclinic.* TO admin@'%' IDENTIFIED BY 'admin123';
 
 USE petclinic;
 
