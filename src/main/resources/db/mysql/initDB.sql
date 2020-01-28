@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS petclinic;
-GRANT ALL PRIVILEGES ON petclinic.* TO admin@database-1.ce7czvxigxyh.us-east-2.rds.amazonaws.com IDENTIFIED BY 'admin';
+GRANT ALL PRIVILEGES ON petclinic.* TO root@* IDENTIFIED BY 'root';
 
 USE petclinic;
 
